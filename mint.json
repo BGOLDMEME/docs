@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Starter Kit",
   "logo": {
-    "dark": "/logo/light.svg",
-    "light": "/logo/dark.svg"
+    "dark": "/logo/",
+    "light": "/logo/"
   },
   "favicon": "/favicon.svg",
   "colors": {
@@ -18,16 +18,16 @@
   "topbarLinks": [
     {
       "name": "Discord",
-      "url": "https://discord.gg/unidex"
+      "url": "https://discord.gg/"
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/unidexfinance"
+      "url": "https://t.me/"
     }
   ],
   "topbarCtaButton": {
     "name": "Start Trading",
-    "url": "https://www.unidex.exchange/"
+    "url": "https://x.cinder.exchange/"
   },
   "tabs": [
     {
@@ -39,17 +39,12 @@
     {
       "name": "Discord",
       "icon": "Discord",
-      "url": "https://discord.gg/unidex"
+      "url": "https://discord.gg/"
     },
     {
       "name": "Telegram",
       "icon": "Telegram",
-      "url": "https://t.me/unidexfinance"
-    },
-    {
-      "name": "Mirror Blog",
-      "icon": "newspaper",
-      "url": "https://mirror.xyz/unidexexchange.eth"
+      "url": "https://t.me/"
     },
     {
       "name": "Swap App",
@@ -59,12 +54,12 @@
     {
       "name": "Perps Trading",
       "icon": "chart-line",
-      "url": "https://leverage.unidex.exchange/"
+      "url": "https://x.cinder.exchange/"
     }
   ],
   "navigation": [
     {
-      "group": "introduction",
+      "group": "Introduction",
       "pages": ["introduction"]
     },
     {
@@ -97,7 +92,7 @@
       "pages": ["token/navigation"]
     },
     {
-      "group": "Misc",
+      "group": "Miscellaneous",
       "pages": ["miscpage/code"]
     },
     {
@@ -114,9 +109,9 @@
     }
   ],
   "footerSocials": {
-    "twitter": "https://twitter.com/unidexfinance",
-    "github": "https://github.com/unidexfinance",
-    "discord": "https:/discord.gg/unidex",
-    "telegram": "https://t.me/unidexfinance"
+    "twitter": "https://twitter.com/Cinder_Finance",
+    "github": "https://github.com/",
+    "discord": "https:/discord.gg/",
+    "telegram": "https://t.me/"
   }
 }
