@@ -22,7 +22,7 @@
     },
     {
       "name": "Telegram",
-      "url": "https://t.me/"
+      "url": "https://t.me/Cinder_Finance"
     }
   ],
   "topbarCtaButton": {
@@ -44,7 +44,7 @@
     {
       "name": "Telegram",
       "icon": "Telegram",
-      "url": "https://t.me/"
+      "url": "https://t.me/Cinder_Finance"
     },
     {
       "name": "Swap App",
@@ -112,6 +112,6 @@
     "twitter": "https://twitter.com/Cinder_Finance",
     "github": "https://github.com/",
     "discord": "https:/discord.gg/",
-    "telegram": "https://t.me/"
+    "telegram": "https://t.me/Cinder_Finance"
   }
 }
