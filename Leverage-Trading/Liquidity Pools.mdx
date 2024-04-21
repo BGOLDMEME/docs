@@ -10,8 +10,7 @@ Any market participant can pool money and provide liquidity for traders on the p
 By providing liquidity, poolers would act as a counter pool where if trader wins poolers would lose vice versa.
 
 
-
-Similar models include
+Similar models include:
 - GMX's GLP
 - GainTrade's gDAI
 - MUX's MUXLP
@@ -21,11 +20,13 @@ Similar models include
 <Note>
   Pooling is not risk free. By pooling you are becoming a market maker taking on **both** positive and negative PnL from traders. Which if the total PnL exceeds the liquidity pool, the pool will be at a total loss. Similar to any other pool based model, or market maker in traditional finance.
 </Note>
-## Liquidity providers
+
+## Liquidity Providers
 
 
-### Sample orderflow
+### Sample Orderflow
 In order to understand the risks and benefits of becoming a liquidity provider, we must first dive into a simulated trade flow.
+
 ```
 The liquidity pool has 100 USDC
 
@@ -40,6 +41,7 @@ Similarly, if Bob opens the same position shortly after and gains 2.5 USDC on hi
 The pool loses 2.5 USDC putting it back to 100 USDC and Bob gains 7.5 USDC (5 Margin USDC + 2.5 USDC PnL)
 The pool balance is now 97.5 USDC for a 2.5% loss for poolers socialized across all poolers.
 ```
+
 All trading pairs with the selected collateral route through that speific pool. So all trades using USDC.e will trade against the USDC.e liquidity pool. All settled PnL is taken / given to the LP which is how liquidity providers are rewarded for their market-making.
 
 
