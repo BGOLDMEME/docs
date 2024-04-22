@@ -84,10 +84,6 @@
       "pages": ["swaps/markdown", "swaps/code", "swaps/images", "swaps/settings", "swaps/navigation"]
     },
     {
-      "group": "Molten OP Stack Chain",
-      "pages": ["appchain/markdown", "appchain/navigation"]
-    },
-    {
       "group": "Token Information",
       "pages": ["token/navigation"]
     },
